@@ -94,5 +94,17 @@ ul {
 /* Start About Us */
 .about {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* End About Us */
+
+/* Start Complexes */
+.complexes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.complexes img {
+  width: 100%;
+  height: 100%;
+}
+/* End Complexes */
