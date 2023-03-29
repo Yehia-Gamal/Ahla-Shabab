@@ -185,3 +185,26 @@ ul {
 }
 
 /* End Gallery Caravans */
+
+/* Start Statistic */
+  .statistic {
+  }
+
+  .statistic .bg {
+    position: relative;
+    display: flex;
+    height: calc(100vh - 70px);
+    background-image: url(../images/statistic.jpg);
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .overlay {
+    background-color: rgb(0 0 0 / 90%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* End Statistic */
