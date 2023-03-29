@@ -76,17 +76,17 @@ ul {
 
 /* Start Cover */
 .carousel {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 .carousel-item img {
-  height: 600px;
+  height: calc(100vh - 90px);
   object-fit: cover;
   object-position: top;
 }
 
 @media (max-width: 767px) {
   .carousel-item img {
-    height: 300px;
+    height: calc(40vh - 90px);
   }
 }
 /* End Cover */
@@ -108,3 +108,18 @@ ul {
   height: 100%;
 }
 /* End Complexes */
+
+/* Start caravans */
+.caravans {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.caravans .video {
+  
+}
+.caravans .video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* End caravans */
