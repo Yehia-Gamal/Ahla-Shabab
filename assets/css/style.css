@@ -68,6 +68,7 @@ ul {
 .navbar .nav-link {
   color: #fff;
   font-weight: bold;
+  text-align: end;
 }
 
 .navbar .nav-link.active {
@@ -235,8 +236,6 @@ ul {
 /* End Statistic */
 
 /* Start Projects */
-.projects {}
-
 .projects ul .active {
   background-color: #18489f;
   color: #fff;
@@ -312,13 +311,14 @@ ul {
   border-radius: 10px;
   opacity: 1;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .associations img:hover {
   opacity: .9;
   transform: scale(1.1);
   border-radius: 0px;
+  border-width: 3px;
 }
 
 /* End Associations */
