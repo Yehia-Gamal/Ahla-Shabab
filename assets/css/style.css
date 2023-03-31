@@ -159,7 +159,7 @@ ul {
 
 .lightbox-gallery .intro {
   font-size: 16px;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto 40px
 }
 
@@ -250,6 +250,14 @@ ul {
 
 .projects ul li:not(.active):hover {
   color: #18489f;
+}
+
+.projects .switcher {
+  background-color: #ddd;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  border-radius: 50px;
 }
 
 .projects .box {
