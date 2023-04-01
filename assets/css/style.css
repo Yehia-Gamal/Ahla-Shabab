@@ -305,7 +305,7 @@ ul {
 }
 
 .associations div {
-  height: 250px;
+  min-height: 250px;
 }
 
 .associations img {
@@ -325,6 +325,13 @@ ul {
   transform: scale(1.1);
   border-radius: 0px;
   border-width: 3px;
+}
+
+@media (max-width: 767px) {
+  .associations div {
+    width: 100%;
+    margin: 10px auto;
+  }
 }
 
 /* End Associations */
@@ -386,6 +393,7 @@ ul {
 .statisticNum .container .content .cards .box .title {
   font-weight: bold;
 }
+
 /* Start statistic numbers */
 
 /* Start Trips  */
@@ -394,7 +402,7 @@ ul {
   padding-bottom: 50px;
 }
 
-.trips .carousel{
+.trips .carousel {
   padding: 0;
   border: 3px solid #18489f;
   border-radius: 40px;
@@ -410,6 +418,13 @@ ul {
 }
 
 @media (max-width: 850px) {
-  
+  .trips .carousel {
+    width: 100%;
+  }
+
+  .trips .carousel-item img {
+    height: 300px;
+  }
 }
+
 /* End Trips  */
