@@ -354,7 +354,7 @@ ul {
   z-index: 9;
 }
 
-.overlay {
+.statisticNum.overlay {
   background-color: rgb(0 0 0 / 90%);
   position: absolute;
   top: 0;
@@ -428,3 +428,16 @@ ul {
 }
 
 /* End Trips  */
+
+/* Start Blog  */
+.blog {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog img {
+  height: 370px;
+  object-fit: cover;
+  object-position: bottom;
+}
+/* End Blog  */
