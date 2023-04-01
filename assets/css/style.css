@@ -387,3 +387,29 @@ ul {
   font-weight: bold;
 }
 /* Start statistic numbers */
+
+/* Start Trips  */
+.trips {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.trips .carousel{
+  padding: 0;
+  border: 3px solid #18489f;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 800px;
+  margin: auto;
+}
+
+.trips .carousel-item img {
+  height: calc(80vh);
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 850px) {
+  
+}
+/* End Trips  */
