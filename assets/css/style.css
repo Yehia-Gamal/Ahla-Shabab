@@ -27,6 +27,11 @@ ul {
   padding: 0;
 }
 
+img {
+  object-fit: cover;
+
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -78,18 +83,18 @@ ul {
 /* End Navbar */
 
 /* Start Cover */
-.carousel {
+.cover .carousel {
   padding-top: 90px;
 }
 
-.carousel-item img {
+.cover .carousel-item img {
   height: calc(100vh - 90px);
   object-fit: cover;
   object-position: top;
 }
 
 @media (max-width: 767px) {
-  .carousel-item img {
+  .cover .carousel-item img {
     height: calc(40vh - 90px);
   }
 }
@@ -440,4 +445,20 @@ ul {
   object-fit: cover;
   object-position: bottom;
 }
+
 /* End Blog  */
+
+/* Start programs */
+.programs img {
+  height: 300px;
+}
+
+.programs .card-body {
+  text-align: center;
+}
+
+.programs .card-footer {
+  text-align: center;
+}
+
+/* End programs */
