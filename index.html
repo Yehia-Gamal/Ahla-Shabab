@@ -14,6 +14,9 @@
 
   <link rel="shortcut icon" type="image/icon" href="assets/images/Icon/logo.png" />
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -451,13 +454,57 @@
   <section class="programs">
     <h2 class="text-center mb-5">برامج أحلى شباب</h2>
     <div class="container">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <iframe src="https://www.youtube.com/embed/1QjpMmaRcs0"
+              title="برومو برنامج | أحلي شباب | محمد الشيخ في رمضان" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="swiper-slide"><iframe src="https://www.youtube.com/embed/KLgx3PjL0Ek"
+              title="برومو برنامج قعدة شباب | د محمد الشيخ - د محمد جلال العدل - م شريف علي - أ حسام الغزالي"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></div>
+          <div class="swiper-slide"><iframe src="https://www.youtube.com/embed/g86vKNopqjk"
+              title="برومو برنامج همة  د محمد الشيخ انتظرونا فى رمضان" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></div>
+          <div class="swiper-slide"><iframe src="https://www.youtube.com/embed/b8ZVfQq9JFY"
+              title="برومو برنامج اول الطريق مع الدكتور محمد جلال العدل" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></div>
+          <div class="swiper-slide"><iframe src="https://www.youtube.com/embed/2pCvVtcSbE0"
+              title="راسيات ... ياترى هنتكلم فيه عن ايه ؟" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></div>
+          <div class="swiper-slide"><iframe src="https://www.youtube.com/embed/izrO4TlATpw"
+              title="برنامج إنسان عادي | د.محمد جلال" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe></div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+      <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
 
             <div class="card-group">
               <div class="card m-1 mb-0 mt-0">
-                <img src="assets/images/statistic.jpg" class="card-img-top" alt="...">
+                <iframe src="https://www.youtube.com/embed/1QjpMmaRcs0"
+                  title="برومو برنامج | أحلي شباب | محمد الشيخ في رمضان" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
                 <div class="card-body">
                   <h5 class="card-title">برنامج أحلى شباب</h5>
                 </div>
@@ -564,7 +611,8 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> -->
+
     </div>
   </section>
   <!-- End programs -->
@@ -808,6 +856,29 @@
   <!-- End Blog -->
 
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script> -->
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
 
   <!-- JS Files -->
   <script src="assets/js/all.min.js"></script>
