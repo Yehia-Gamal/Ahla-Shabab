@@ -456,13 +456,13 @@ img {
 }
 
 .programs iframe {
-  /* height: 100%; */
+  height: 220px;
   width: 100%;
 }
 
 .swiper {
-  width: 240px;
-  height: 320px;
+  width: 250px;
+  height: 350px;
 }
 
 .swiper-slide {
@@ -472,10 +472,11 @@ img {
   border-radius: 18px;
   font-size: 22px;
   font-weight: bold;
+  background-color: #000;
   color: #fff;
 }
 
-.swiper-slide:nth-child(1n) {
+/* .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
 }
 
@@ -513,7 +514,7 @@ img {
 
 .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
-}
+} */
 
 .programs .see-more {
   display: block;
