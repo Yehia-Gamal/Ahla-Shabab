@@ -1,4 +1,8 @@
 /* Start Global Rules */
+:root {
+  --main-color: #18489f;
+  --second-color: #e9af31;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -521,4 +525,5 @@ img {
   width: 90%;
   margin: auto;
 }
+
 /* End programs */
