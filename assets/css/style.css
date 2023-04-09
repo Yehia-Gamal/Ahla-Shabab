@@ -50,15 +50,15 @@ img {
 .title {
   position: relative;
   font-weight: bold;
-  margin-bottom: 5px;
   color: var(--main-color);
   border-bottom: 3px solid var(--second-color);
   padding-bottom: 5px;
   width: fit-content;
-  margin: auto;
+  margin: 0px auto 20px;
+  border-radius: 10px;
 }
 
-.title::after {
+.title::before {
   content: "";
   position: absolute;
   border: 10px solid;
@@ -313,7 +313,7 @@ img {
   color: var(--main-color);
 }
 
-.statistic .container .content .cards .box .title {
+.statistic .container .content .cards .box .title-box {
   font-weight: bold;
   color: var(--second-color);
 }
@@ -477,7 +477,7 @@ img {
   color: var(--main-color);
 }
 
-.statisticNum .container .content .cards .box .title {
+.statisticNum .container .content .cards .box .title-box {
   font-weight: bold;
   color: var(--second-color);
 }
