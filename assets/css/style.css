@@ -390,6 +390,140 @@ img {
 .associations {
   padding-top: 50px;
   padding-bottom: 50px;
+  /* height: 100vh;
+  width: 100%; */
+  /* position: relative; */
+}
+
+.associations .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.associations div {
+  position: absolute;
+  /* z-index: -1; */
+
+}
+
+.associations img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #18489f;
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.associations .btn {
+  position: absolute;
+  width: 250px;
+  z-index: -2;
+  padding: 10px 30px;
+}
+
+.associations img:hover {
+  transform: scale(1.1) rotateZ(360deg);
+  border-width: 3px;
+}
+
+.associations .main {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.associations .main .img-main {
+  width: 300px;
+  height: 300px;
+}
+
+.associations .cairo {
+  top: -30%;
+  left: -30%;
+}
+
+.associations .cairo .btn {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  right: 50%;
+  top: 0%;
+  text-align: start;
+}
+
+.associations .aswan {
+  top: -30%;
+  left: 60%;
+}
+
+.associations .aswan .btn {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  left: 50%;
+  top: 0;
+  text-align: end;
+}
+
+.associations .qalubiya {
+  bottom: -30%;
+  left: -30%;
+}
+
+.associations .qalubiya .btn {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  right: 50%;
+  top: 0%;
+  text-align: start;
+}
+
+.associations .qana {
+  bottom: -30%;
+  left: 60%;
+}
+
+.associations .qana .btn {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  left: 50%;
+  top: 0%;
+  text-align: end;
+}
+
+@media (max-width: 767px) {
+  .associations .container {
+    height: 30vh;
+  }
+
+  .associations .main .img-main {
+    width: 100px;
+    height: 100px;
+  }
+
+  .associations img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .associations .btn {
+    width: 100px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+}
+
+/* .associations {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .associations div {
@@ -420,7 +554,8 @@ img {
     width: 100%;
     margin: 10px auto;
   }
-}
+} */
+
 
 /* End Associations */
 

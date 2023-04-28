@@ -10,7 +10,7 @@ counters.forEach((counter) => {
 
     let count = +counter.innerHTML;
 
-    let increment = target / 1000;
+    let increment = target / 10000;
 
     if (count < target) {
       counter.innerHTML = `${Math.ceil(count + increment)}`;
