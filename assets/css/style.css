@@ -504,17 +504,17 @@ img {
   }
 
   .associations .main .img-main {
+    width: 130px;
+    height: 130px;
+  }
+
+  .associations img {
     width: 100px;
     height: 100px;
   }
 
-  .associations img {
-    width: 80px;
-    height: 80px;
-  }
-
   .associations .btn {
-    width: 100px;
+    width: 120px;
     padding: 10px;
     font-size: 10px;
   }
