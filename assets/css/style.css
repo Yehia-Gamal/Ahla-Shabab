@@ -230,8 +230,7 @@ img {
 /* Start Gallery Caravans */
 
 .lightbox-gallery {
-  background-image: linear-gradient(#4A148C, #18489f);
-  background-repeat: no-repeat;
+  background-color: #18489f;
   color: #000;
   overflow-x: hidden
 }
@@ -276,6 +275,8 @@ img {
 .lightbox-gallery .img-fluid {
   width: 400px;
   height: 300px;
+  border-radius: 10px;
+  border: 2px solid var(--second-color);
 }
 
 /* End Gallery Caravans */
