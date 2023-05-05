@@ -118,14 +118,14 @@ img {
 }
 
 .cover .carousel-item img {
-  height: calc(100vh - 90px);
+  /* height: calc(100vh - 90px); */
   object-fit: cover;
   object-position: top;
 }
 
 @media (max-width: 767px) {
   .cover .carousel-item img {
-    height: calc(40vh - 90px);
+    /* height: calc(40vh - 90px); */
   }
 }
 
