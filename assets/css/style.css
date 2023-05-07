@@ -702,6 +702,13 @@ img {
   height: 100%;
 }
 
+@media (max-width: 767px) {
+  .blog swiper-slide {
+    width: 250px !important;
+    height: 200px;
+  }
+}
+
 /* End Blog  */
 
 /* Start programs */
