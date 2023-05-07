@@ -680,12 +680,26 @@ img {
 .blog {
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 
-.blog img {
-  height: 370px;
-  object-fit: cover;
-  object-position: bottom;
+.blog swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 250px;
+}
+
+.blog swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /* End Blog  */
@@ -702,15 +716,16 @@ img {
   width: 100%;
 }
 
-.swiper {
+.programs .swiper {
   width: 250px;
   height: 350px;
 }
 
-.swiper-slide {
+.programs .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border-radius: 18px;
   font-size: 22px;
   font-weight: bold;

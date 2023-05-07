@@ -695,97 +695,36 @@
   <div class="blog">
     <h2 class="text-center title">مدونة أحلى شباب</h2>
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
 
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/1.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
+      <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+        <swiper-slide>
+          <img src="assets/images/Blog/1.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/2.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/3.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/4.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/5.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/6.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/7.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="assets/images/Blog/8.jpg" />
+        </swiper-slide>
+      </swiper-container>
 
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/2.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/3.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/4.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/5.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/6.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/7.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/Blog/8.jpg" class="card-img-top" alt="Blog-img">
-            <div class="card-body">
-              <h5 class="card-title">27laShabab</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi doloribus
-                facilis earum iste pariatur</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
   </div>
   <!-- End Blog -->
@@ -793,6 +732,8 @@
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
