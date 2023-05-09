@@ -787,3 +787,70 @@ img {
 }
 
 /* End programs */
+
+/* Start situations */
+.situations {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.situations .card {
+  padding: 20px;
+}
+
+.situations .card a img {
+  border-radius: 6px;
+  width: 100%;
+  transition: all ease-in-out .4s;
+}
+
+.situations .card a img:hover {
+  transform: scale(.9);
+}
+
+.situations span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.situations .btn {
+  background-color: #4CAF50;
+  color: #fff;
+  transition: all ease-in-out .4s;
+  padding: 8px;
+}
+
+.situations .btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 1000px) {
+  .situations .card {
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) {
+  .situations .card {
+    width: 30%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .situations .card {
+    width: 44%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .situations .card {
+    width: 100%;
+  }
+}
+
+/* End situations */

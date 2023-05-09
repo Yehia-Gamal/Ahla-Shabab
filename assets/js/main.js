@@ -50,3 +50,7 @@ function manageImgs() {
   })
 }
 // End Projects
+
+// Start situations
+
+// End situations
