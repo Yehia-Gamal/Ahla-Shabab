@@ -613,10 +613,6 @@ img {
     background-image: url(../images/statistic-01.jpg);
     background-size: auto;
   }
-
-  .overlay {
-    /* background-color: rgb(0 0 0 / 90%); */
-  }
 }
 
 .statisticNum .container .content {
