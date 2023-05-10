@@ -447,6 +447,7 @@ img {
   width: 250px;
   z-index: -2;
   padding: 10px 30px;
+  background-color: var(--second-color);
 }
 
 .associations img:hover {
