@@ -757,7 +757,8 @@ img {
   border-radius: 18px;
   font-size: 22px;
   font-weight: bold;
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: var(--main-color);
   color: #fff;
 }
 
