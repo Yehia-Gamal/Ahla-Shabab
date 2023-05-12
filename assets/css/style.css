@@ -241,11 +241,21 @@ img {
 .lightbox-gallery {
   background-color: #18489f;
   color: #000;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 .lightbox-gallery p {
-  color: #fff
+  color: #fff;
+}
+
+
+.lightbox-gallery .text-dec {
+  direction: rtl;
+  background-color: #2196f366;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  line-height: 1.7;
 }
 
 .lightbox-gallery h2 {
