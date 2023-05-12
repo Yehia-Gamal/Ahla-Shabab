@@ -862,17 +862,17 @@ footer {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   height: 300px;
   width: 100%;
+  padding: 20px 0;
 }
 
 footer .contact-us {
-  place-items: center;
+  text-align: center;
 }
 
 footer .contact-us .button {
   display: inline-block;
   width: 60px;
   height: 60px;
-  float: left;
   margin: 0 5px;
   background: #fff;
   border-radius: 50px;
@@ -889,12 +889,14 @@ footer .contact-us .button .icon {
   text-align: center;
   border-radius: 50px;
   box-sizing: border-box;
-  line-height: 60px;
+  line-height: 70px;
   transition: all 0.3s ease-out;
+  color: var(--main-color);
+  background-color: #fff;
 }
 
-footer .contact-us .button .icon i {
-  font-size: 25px;
+footer .contact-us .button .icon svg {
+  font-size: 30px;
   line-height: 60px;
 }
 
@@ -907,6 +909,62 @@ footer .contact-us .button span {
 
 footer .contact-us .button:hover {
   width: 200px;
+  text-align: left;
+}
+
+footer .contact-us .facebook-icon:hover .icon {
+  background-color: #395295;
+  color: #fff;
+}
+
+footer .contact-us .youtube-icon:hover .icon {
+  background-color: #db0000;
+  color: #fff;
+}
+
+footer .contact-us .soundcloud-icon:hover .icon {
+  background-color: #de4207;
+  color: #fff;
+}
+
+footer .contact-us .telegram-icon:hover .icon {
+  background-color: #64a6d8;
+  color: #fff;
+}
+
+footer .contact-us .linkedin-icon:hover .icon {
+  /* background-color: #437bb4; */
+  background-color: #000;
+  color: #fff;
+}
+
+footer .contact-us .whatsapp-icon:hover .icon {
+  background-color: #447634;
+  color: #fff;
+}
+
+footer .contact-us .facebook-icon:hover span {
+  color: #395295;
+}
+
+footer .contact-us .youtube-icon:hover span {
+  color: #db0000;
+}
+
+footer .contact-us .soundcloud-icon:hover span {
+  color: #de4207;
+}
+
+footer .contact-us .telegram-icon:hover span {
+  color: #64a6d8;
+}
+
+footer .contact-us .linkedin-icon:hover span {
+  color: #000;
+}
+
+footer .contact-us .whatsapp-icon:hover span {
+  color: #447634;
 }
 
 /* End Footer */
