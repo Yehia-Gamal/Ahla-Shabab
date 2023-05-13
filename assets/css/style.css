@@ -239,7 +239,6 @@ img {
 /* Start Gallery Caravans */
 
 .lightbox-gallery {
-  background-color: #18489f;
   color: #000;
   overflow-x: hidden;
 }
@@ -251,18 +250,17 @@ img {
 
 .lightbox-gallery .text-dec {
   direction: rtl;
-  background-color: #2196f366;
-  color: #fff;
+  background-color: #2196f347;
+  color: #000;
   padding: 20px;
   border-radius: 6px;
   line-height: 1.7;
+  font-size: 18px;
 }
 
 .lightbox-gallery h2 {
-  font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
-  color: #fff
 }
 
 @media (max-width:767px) {
@@ -280,7 +278,8 @@ img {
 }
 
 .lightbox-gallery .intro p {
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: var(--second-color);
 }
 
 .lightbox-gallery .photos {
@@ -295,7 +294,7 @@ img {
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  border: 2px solid var(--second-color);
+  border: 2px solid var(--main-color);
 }
 
 /* End Gallery Caravans */
