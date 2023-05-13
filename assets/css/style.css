@@ -297,6 +297,20 @@ img {
   border: 2px solid var(--main-color);
 }
 
+@media(max-width:767px) {
+  .lightbox-gallery .item {
+    width: 50%;
+  }
+
+  .lightbox-gallery .img-fluid {
+    height: 200px;
+  }
+
+  .lightbox-gallery .text-dec {
+    font-size: 14px;
+  }
+}
+
 /* End Gallery Caravans */
 
 /* Start Statistic */
@@ -375,6 +389,9 @@ img {
   padding: 0.7rem;
   cursor: pointer;
   font-weight: bold;
+  margin: 5px;
+  background: #c7dcf7;
+  border-radius: 10px;
 }
 
 .projects ul li:not(.active):hover {
@@ -425,6 +442,18 @@ img {
 .projects .box img {
   width: 100%;
   height: 230px;
+}
+
+@media(max-width:767px) {
+  .projects ul li {
+    /* padding: 0.5rem; */
+    font-size: 13px;
+  }
+
+  .projects .switcher {
+    flex-wrap: wrap-reverse;
+    border-radius: 20px;
+  }
 }
 
 /* End Projects */
