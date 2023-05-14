@@ -126,6 +126,10 @@ img {
 
 .navbar .nav-link.active {
   color: var(--main-color);
+  border: 2px solid var(--second-color);
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #dcb44942;
 }
 
 /* End Navbar */
@@ -453,6 +457,16 @@ img {
   .projects .switcher {
     flex-wrap: wrap-reverse;
     border-radius: 20px;
+  }
+
+  .main-switcher {
+    flex-wrap: nowrap!important;
+  }
+
+  .projects .main-switcher li {
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
   }
 }
 

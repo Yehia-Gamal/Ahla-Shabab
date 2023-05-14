@@ -1,3 +1,22 @@
+// Start Header
+
+// Add Class Active To Header Nav And Remove 
+const active = document.querySelectorAll("#navbarSupportedContent .nav-link");
+
+active.forEach((e) => {
+  e.addEventListener("click", removeActiveNavbar);
+})
+
+// Remove Active Class From All Lis And Add Class Active Only To Current
+function removeActiveNavbar() {
+  active.forEach((e) => {
+    e.classList.remove("active")
+    this.classList.add("active")
+  })
+}
+
+// End Header
+
 // Start Statistic 
 let counters = document.querySelectorAll(".number");
 
@@ -50,7 +69,3 @@ function manageImgs() {
   })
 }
 // End Projects
-
-// Start situations
-
-// End situations
