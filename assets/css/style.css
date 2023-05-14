@@ -185,13 +185,6 @@ img {
   border: 2px solid var(--second-color);
 }
 
-@media (max-width: 767px) {
-  .navbar .navbar-brand img {
-    width: 64px;
-    height: 64px;
-  }
-}
-
 .navbar .nav-link {
   color: var(--main-color);
   font-weight: bold;
@@ -206,6 +199,35 @@ img {
   color: var(--main-color);
   border: 0.5px solid #e9af3159;
   padding: 5px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+  color: var(--main-color);
+}
+
+.navbar-toggler {
+  border: 2px solid var(--second-color);
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-brand img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .navbar .nav-link {
+    width: fit-content;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    text-align: -webkit-right;
+  }
+
+  .navbar-nav {
+    flex-direction: column-reverse;
+  }
 }
 
 /* End Navbar */
@@ -918,11 +940,11 @@ img {
 /* End programs */
 
 /* Start situations */
-.situations {
+
+/* .situations {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 
 .situations .card {
   padding: 20px;
@@ -944,7 +966,7 @@ img {
 }
 
 .situations .btn {
-  /* background-color: #4CAF50; */
+  /* background-color: #4CAF50;
   background-color: var(--second-color);
   color: #fff;
   transition: all ease-in-out .4s;
@@ -981,33 +1003,13 @@ img {
   .situations .card {
     width: 90%;
   }
+} 
+*/
+
+.situations {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-
-.situations .card-sit {
-  height: 50vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.situations .card-sit img {
-  width: 300px;
-  border: 3px solid var(--main-color);
-  border-radius: 50%;
-}
-
-.situations .card-sit ul {}
-
-.situations .card-sit ul li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: cadetblue;
-}
-
-
-
 
 .situations .container {
   padding-top: 50px;
@@ -1021,8 +1023,6 @@ img {
 
 .situations div {
   position: absolute;
-  /* z-index: -1; */
-
 }
 
 .situations img {
@@ -1034,19 +1034,6 @@ img {
   opacity: 1;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-}
-
-.situations .btn {
-  position: absolute;
-  width: 250px;
-  z-index: -2;
-  padding: 10px 30px;
-  background-color: var(--second-color);
-  border-width: 2px;
-}
-
-.situations .btn:hover {
-  border-color: var(--second-color);
 }
 
 .situations img:hover {
@@ -1068,11 +1055,14 @@ img {
 .situations .main .img-main {
   width: 300px;
   height: 300px;
-  /* background-color: var(--second-color); */
+}
+
+.situations .main {
+  border-color: var(--second-color);
 }
 
 .situations .main .img-main:hover {
-  /* background-color: var(--main-color); */
+  background-color: #18489fb3;
 }
 
 .situations .main .card-1 {
@@ -1120,48 +1110,10 @@ img {
   left: -29%;
 }
 
-.situations .cairo {
-  top: -30%;
-  left: -30%;
-}
-
-.situations .aswan .btn {
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
-  left: 50%;
-  top: 0;
-  text-align: end;
-}
-
-.situations .qalubiya {
-  bottom: -30%;
-  left: -30%;
-}
-
-.situations .qalubiya .btn {
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
-  right: 50%;
-  top: 0%;
-  text-align: start;
-}
-
-.situations .qana {
-  bottom: -30%;
-  left: 60%;
-}
-
-.situations .qana .btn {
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
-  left: 50%;
-  top: 0%;
-  text-align: end;
-}
-
 @media (max-width: 767px) {
   .situations .container {
-    height: 30vh;
+    height: 40vh;
+    padding-bottom: 0px;
   }
 
   .situations .main .img-main {
@@ -1170,16 +1122,54 @@ img {
   }
 
   .situations img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 
-  .situations .btn {
-    width: 120px;
-    padding: 10px;
-    font-size: 10px;
+  .situations .main .card-1 {
+    top: -20%;
+    left: -22%;
   }
 
+  .situations .main .card-2 {
+    top: -41%;
+    left: 22%;
+  }
+
+  .situations .main .card-3 {
+    top: -30%;
+    left: 69%;
+  }
+
+  .situations .main .card-4 {
+    top: 8%;
+    left: 97%;
+  }
+
+  .situations .main .card-5 {
+    top: 55%;
+    left: 96%;
+  }
+
+  .situations .main .card-6 {
+    top: 91%;
+    left: 65%;
+  }
+
+  .situations .main .card-7 {
+    top: 99%;
+    left: 16%;
+  }
+
+  .situations .main .card-8 {
+    top: 73%;
+    left: -27%;
+  }
+
+  .situations .main .card-9 {
+    top: 26%;
+    left: -42%;
+  }
 }
 
 /* End situations */
