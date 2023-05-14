@@ -92,6 +92,80 @@ img {
 
 /* End Global Rules */
 
+
+
+
+/* Start Back Top */
+.top-btn.active {
+  transform: translateY(0px);
+}
+
+.top-btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  left: 20px;
+  right: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 50px;
+  z-index: 999;
+  transition: all 1s ease-in-out;
+  transform: translateY(200px);
+}
+
+.icons-back-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons-back-top::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-left: 2px solid var(--second-color);
+  border-radius: 50%;
+  animation: btn-top 3s linear infinite;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons-back-top:hover::before {
+  animation: btn-top .5s linear infinite;
+  border-color: var(--main-color);
+  transition: all 0.5s ease-in-out;
+}
+
+.top-btn svg {
+  transition: all 0.5s ease-in-out;
+}
+
+.top-btn svg:first-child {
+  font-size: 30px;
+  color: var(--main-color);
+  margin-top: 7px;
+}
+
+.top-btn svg:last-child {
+  font-size: 20px;
+  color: var(--main-color);
+  margin-top: -15px;
+}
+
+.icons-back-top:hover svg {
+  color: var(--second-color);
+}
+
+/* End Back Top */
+
+
 /* Start Navbar */
 .navbar {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, .2));
@@ -1053,3 +1127,16 @@ footer .contact-us .whatsapp-icon:hover span {
 }
 
 /* End Footer */
+
+
+/* start Animation */
+
+@keyframes btn-top {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}

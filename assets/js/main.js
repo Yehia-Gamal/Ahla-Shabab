@@ -69,3 +69,20 @@ function manageImgs() {
   })
 }
 // End Projects
+
+//Back To Top
+let btnUp = document.querySelector(".top-btn");
+
+window.onscroll = function () {
+  if (window.scrollY >= 400) {
+    btnUp.classList.add("active");
+  } else {
+    btnUp.classList.remove("active");
+  }
+  btnUp.onclick = function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+};
