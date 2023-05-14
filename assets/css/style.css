@@ -125,11 +125,13 @@ img {
 }
 
 .navbar .nav-link.active {
-  color: var(--main-color);
-  border: 2px solid var(--second-color);
+  box-shadow: 0 0 5px var(--main-color);
   border-radius: 6px;
+  font-weight: 800;
+  background-color: #c9dcf9b5;
+  color: var(--main-color);
+  border: 0.5px solid #e9af3159;
   padding: 5px;
-  background-color: #dcb44942;
 }
 
 /* End Navbar */
