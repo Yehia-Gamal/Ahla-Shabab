@@ -536,7 +536,7 @@ img {
   }
 
   .main-switcher {
-    flex-wrap: nowrap!important;
+    flex-wrap: nowrap !important;
   }
 
   .projects .main-switcher li {
@@ -981,6 +981,205 @@ img {
   .situations .card {
     width: 90%;
   }
+}
+
+.situations .card-sit {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.situations .card-sit img {
+  width: 300px;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
+}
+
+.situations .card-sit ul {}
+
+.situations .card-sit ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: cadetblue;
+}
+
+
+
+
+.situations .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.situations div {
+  position: absolute;
+  /* z-index: -1; */
+
+}
+
+.situations img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #18489f;
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.situations .btn {
+  position: absolute;
+  width: 250px;
+  z-index: -2;
+  padding: 10px 30px;
+  background-color: var(--second-color);
+  border-width: 2px;
+}
+
+.situations .btn:hover {
+  border-color: var(--second-color);
+}
+
+.situations img:hover {
+  transform: scale(1.1) rotateZ(360deg);
+  border-width: 3px;
+  border-color: var(--second-color);
+}
+
+.situations .main {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  border: 2px solid var(--second-color);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.situations .main .img-main {
+  width: 300px;
+  height: 300px;
+  /* background-color: var(--second-color); */
+}
+
+.situations .main .img-main:hover {
+  /* background-color: var(--main-color); */
+}
+
+.situations .main .card-1 {
+  top: -12%;
+  left: -9%;
+}
+
+.situations .main .card-2 {
+  top: -29%;
+  left: 34%;
+}
+
+.situations .main .card-3 {
+  top: -15%;
+  left: 76%;
+}
+
+.situations .main .card-4 {
+  top: 23%;
+  left: 99%;
+}
+
+.situations .main .card-5 {
+  top: 67%;
+  left: 92%;
+}
+
+.situations .main .card-6 {
+  top: 94%;
+  left: 63%;
+}
+
+.situations .main .card-7 {
+  top: 98%;
+  left: 21%;
+}
+
+.situations .main .card-8 {
+  top: 73%;
+  left: -17%;
+}
+
+.situations .main .card-9 {
+  top: 30%;
+  left: -29%;
+}
+
+.situations .cairo {
+  top: -30%;
+  left: -30%;
+}
+
+.situations .aswan .btn {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  left: 50%;
+  top: 0;
+  text-align: end;
+}
+
+.situations .qalubiya {
+  bottom: -30%;
+  left: -30%;
+}
+
+.situations .qalubiya .btn {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  right: 50%;
+  top: 0%;
+  text-align: start;
+}
+
+.situations .qana {
+  bottom: -30%;
+  left: 60%;
+}
+
+.situations .qana .btn {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  left: 50%;
+  top: 0%;
+  text-align: end;
+}
+
+@media (max-width: 767px) {
+  .situations .container {
+    height: 30vh;
+  }
+
+  .situations .main .img-main {
+    width: 130px;
+    height: 130px;
+  }
+
+  .situations img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .situations .btn {
+    width: 120px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
 }
 
 /* End situations */
