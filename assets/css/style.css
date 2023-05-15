@@ -1331,13 +1331,42 @@ footer .contact-us .whatsapp-icon:hover span {
   color: #447634;
 }
 
-@media(max-width: 767px) {
-  footer .contact-us {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-  }
+footer .links {
+  direction: rtl;
+}
 
+footer .links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .links li {
+  border: 1px solid var(--second-color);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+footer .links li:hover {
+  margin-right: 20px;
+}
+
+footer .links li a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+footer .links li a svg {
+  margin-left: 10px;
+  color: var(--second-color);
+}
+
+/* footer .links li:not(:last-child) {
+  border-bottom: 1px solid var(--second-color);
+} */
+
+@media(max-width: 767px) {
   footer .contact-us .button {
     width: 40px;
     height: 40px;
