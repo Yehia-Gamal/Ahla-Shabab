@@ -1355,6 +1355,7 @@ footer .links li:hover {
 footer .links li a {
   color: var(--main-color);
   font-weight: bold;
+  transition: all ease-in-out 0.3s;
 }
 
 footer .links li a svg {
@@ -1389,6 +1390,15 @@ footer .links li a svg {
   footer .contact-us .button span {
     line-height: 46px;
     margin-left: 2px;
+  }
+
+  footer .links ul {
+    display: block;
+  }
+
+
+  footer .links li:hover a {
+    margin-right: 20px;
   }
 
 }
