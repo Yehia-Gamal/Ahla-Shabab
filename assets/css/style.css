@@ -264,6 +264,21 @@ button:focus:not(:focus-visible) {
   }
 }
 
+@media (max-width: 990px) {
+  .navbar .nav-link {
+    width: fit-content;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    text-align: -webkit-right;
+  }
+
+  .navbar-nav {
+    flex-direction: column-reverse;
+  }
+}
+
 /* End Navbar */
 
 /* Start Cover */
@@ -527,7 +542,7 @@ button:focus:not(:focus-visible) {
   font-weight: bold;
   margin: 5px;
   background: #c7dcf7;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .projects ul li:not(.active):hover {
