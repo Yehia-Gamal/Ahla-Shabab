@@ -306,7 +306,6 @@ button:focus:not(:focus-visible) {
 /* Start About Us */
 .about {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .about .values li {
@@ -1226,8 +1225,71 @@ button:focus:not(:focus-visible) {
 /* Start Footer */
 footer {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  padding: 30px 0;
+  padding: 30px 0 10px;
 }
+
+footer .title {
+  margin-bottom: 40px;
+}
+
+footer .links {
+  direction: rtl;
+}
+
+footer .links ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer .links li {
+  border: 1px solid var(--second-color);
+  border-radius: 20px;
+  margin: 3px;
+  padding: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+footer .links li:hover {
+  margin-right: 20px;
+}
+
+footer .links li a {
+  color: var(--main-color);
+  font-weight: bold;
+  transition: all ease-in-out 0.3s;
+}
+
+footer .links li a svg {
+  margin-left: 10px;
+  color: var(--second-color);
+}
+
+.contribution img {
+  width: 200px;
+  height: 200px;
+}
+
+.contribution .vodafone {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.contribution .vodafone .voda {
+  border-bottom: 2px solid var(--second-color);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.contribution .vodafone .voda span {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.contribution .vodafone .voda svg {
+  color: var(--second-color);
+  margin: 0 10px;
+}
+
 
 footer .contact-us {
   text-align: center;
@@ -1297,7 +1359,6 @@ footer .contact-us .telegram-icon:hover .icon {
 }
 
 footer .contact-us .linkedin-icon:hover .icon {
-  /* background-color: #437bb4; */
   background-color: #000;
   color: #fff;
 }
@@ -1329,64 +1390,6 @@ footer .contact-us .linkedin-icon:hover span {
 
 footer .contact-us .whatsapp-icon:hover span {
   color: #447634;
-}
-
-footer .links {
-  direction: rtl;
-}
-
-footer .links ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-}
-
-footer .links li {
-  border: 1px solid var(--second-color);
-  border-radius: 20px;
-  margin: 3px;
-  padding: 5px;
-  transition: all ease-in-out 0.3s;
-}
-
-footer .links li:hover {
-  margin-right: 20px;
-}
-
-footer .links li a {
-  color: var(--main-color);
-  font-weight: bold;
-  transition: all ease-in-out 0.3s;
-}
-
-footer .links li a svg {
-  margin-left: 10px;
-  color: var(--second-color);
-}
-
-/* footer .links li:not(:last-child) {
-  border-bottom: 1px solid var(--second-color);
-} */
-
-.contribution img {
-  width: 200px;
-  height: 200px;
-}
-
-.contribution .vodafone {
-  color: var(--main-color);
-  font-size: 20px;
-}
-
-.contribution .vodafone .voda {
-  border-bottom: 2px solid var(--second-color);
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.contribution .vodafone .voda span {
-  font-weight: bold;
-  letter-spacing: 1px;
 }
 
 .copyrights {
@@ -1436,6 +1439,10 @@ footer .links li a svg {
 
   footer .links li:hover a {
     margin-right: 20px;
+  }
+
+  .contribution .vodafone .voda svg {
+    margin: 0px 3px;
   }
 
 }
