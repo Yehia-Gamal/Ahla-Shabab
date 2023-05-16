@@ -163,6 +163,76 @@ img {
 /* End Back Top */
 
 
+/* Start Whatsapp Contact */
+.btn-social-buttons a {
+  transform: scale(0);
+}
+
+.btn-social-buttons.show a {
+  transform: scale(1);
+}
+
+.Whatsapp-Contact {
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+  z-index: 1000;
+  width: 94px;
+  height: 94px;
+  background: #4ac534;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.Whatsapp-Contact {
+  position: fixed;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.Whatsapp-Contact {
+  background-color: #4ac534;
+  right: 20px;
+  bottom: 40px;
+}
+
+.Whatsapp-Contact svg {
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.Whatsapp-Contact svg {
+  font-size: 37px;
+}
+
+.Whatsapp-Contact:hover,
+.Whatsapp-Contact:focus,
+.Whatsapp-Contact:hover svg,
+.Whatsapp-Contact:focus svg {
+  transform: scale(1.1) rotate(360deg);
+}
+
+/* End Whatsapp Contact */
+
+
 /* Start Navbar */
 .navbar {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, .2));

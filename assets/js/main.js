@@ -71,13 +71,16 @@ function manageImgs() {
 // End Projects
 
 //Back To Top
+let contact = document.querySelector(".btn-social-buttons");
 let btnUp = document.querySelector(".top-btn");
 
 window.onscroll = function () {
   if (window.scrollY >= 400) {
     btnUp.classList.add("active");
+    contact.classList.add("show");
   } else {
     btnUp.classList.remove("active");
+    contact.classList.remove("show");
   }
   btnUp.onclick = function () {
     window.scrollTo({
