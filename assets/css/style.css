@@ -325,7 +325,7 @@ button:focus:not(:focus-visible) {
 
   .navbar .navbar-icons {
     height: 50px;
-    padding: 5px 0;
+    padding: 7px 0;
   }
 
   .navbar .vodafone {
@@ -353,7 +353,7 @@ button:focus:not(:focus-visible) {
 
 /* Start Cover */
 .cover .carousel {
-  margin-top: 120px;
+  margin-top: 130px;
 }
 
 .cover .carousel-item img {
@@ -367,7 +367,7 @@ button:focus:not(:focus-visible) {
   }
 
   .cover .carousel {
-    margin-top: 80px;
+    margin-top: 135px;
   }
 }
 
@@ -1295,7 +1295,7 @@ button:focus:not(:focus-visible) {
 /* Start Footer */
 footer {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  padding: 30px 0 10px;
+  padding: 30px 0 0;
 }
 
 footer .title {
@@ -1465,8 +1465,10 @@ footer .contact-us .whatsapp-icon:hover span {
 .copyrights {
   text-align: center;
   margin: 30px 0 0;
-  padding: 10px 0 0;
+  padding: 10px 0 10px;
   border-top: 1px solid var(--second-color);
+  background-color: #cfe3f7;
+  box-shadow: 0px 0px 20px 10px #cfe3f7;
 }
 
 .copyrights a {
