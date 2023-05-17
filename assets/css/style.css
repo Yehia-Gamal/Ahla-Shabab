@@ -757,10 +757,6 @@ button:focus:not(:focus-visible) {
   /* background-color: var(--second-color); */
 }
 
-.associations .main .img-main:hover {
-  /* background-color: var(--main-color); */
-}
-
 .associations .cairo {
   top: -30%;
   left: -30%;
