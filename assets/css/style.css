@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eff7fa;
+  overflow-x: hidden;
 }
 
 html {
@@ -1612,7 +1613,8 @@ footer .contact-us .whatsapp-icon:hover span {
 .copyrights {
   text-align: center;
   margin: 30px 0 0;
-  padding: 10px 0 10px;
+  font-size: 18px;
+  padding: 10px 0 0;
   border-top: 1px solid var(--second-color);
   background-color: #cfe3f7;
   -webkit-box-shadow: 0px 0px 20px 10px #cfe3f7;
@@ -1665,6 +1667,19 @@ footer .contact-us .whatsapp-icon:hover span {
     margin: 0px 3px;
   }
 
+}
+
+
+@media (max-width:360px) {
+  .copyrights {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:320px) {
+  .copyrights {
+    font-size: 13px;
+  }
 }
 
 /* End Footer */
