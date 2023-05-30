@@ -1614,7 +1614,7 @@ footer .contact-us .whatsapp-icon:hover span {
   text-align: center;
   margin: 30px 0 0;
   font-size: 18px;
-  padding: 10px 0 0;
+  padding: 10px 0 10px;
   border-top: 1px solid var(--second-color);
   background-color: #cfe3f7;
   -webkit-box-shadow: 0px 0px 20px 10px #cfe3f7;
