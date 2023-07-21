@@ -1482,6 +1482,9 @@ button:focus:not(:focus-visible) {
     font-weight: 500;
 
   }
+  .programs .infos .name {
+    
+  }
 }
 
 /* End programs */
