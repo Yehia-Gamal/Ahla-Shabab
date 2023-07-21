@@ -1667,71 +1667,23 @@ button:focus:not(:focus-visible) {
   }
 }
 
-.blog input {
-
-  display: none;
+.blog .swiper {
+  width: 240px;
+  height: 320px;
 }
 
-.blog .container {
-
-  width: 100%;
-  height: 100%;
-  max-width: 600px;
-  max-height: 600px;
+.blog .swiper-slide {
   display: flex;
-  transform-style: preserve-3d;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: var(--main-color);
 }
 
-.blog .cards {
-
-  position: relative;
-  height: 500px;
-  width: 430px;
-  margin-bottom: 20px;
-  perspective: 1000px;
-  transform-style: preserve-3d;
-}
-
-.blog .cards label {
-
-  position: absolute;
-  width: 430px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  cursor: pointer;
-  transition: transform 0.55s ease;
-}
-
-.blog .cards .card {
-
-  position: relative;
-  height: 630px;
-  background-color: #18489f;
-  border-radius: 10px;
-  padding: 15px 25px;
-}
-
-.blog .cards .card h5 {
-  color: #fff;
-}
-
-.blog .card .video {
-
-  display: flex;
-  justify-content: space-between;
-}
-
-.blog .card .video iframe {
-
-  border-radius: 5px;
-  box-shadow: 15px 15px 40px rgba(0, 0, 0, 50%);
-  margin-top: 25px;
-  width: 90%;
-  height: 300px;
+.blog .swiper-slide img {
+  height: 100%;
   object-fit: cover;
 }
 

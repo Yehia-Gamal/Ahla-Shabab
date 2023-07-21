@@ -41,6 +41,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -1079,7 +1082,7 @@
         slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
         coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
         <swiper-slide>
-          <img src="assets/images/Blog/1.jpg" alt="images-blog 1" />
+          <img src="assets/images/Blog/1.jpg" />
         </swiper-slide>
         <swiper-slide>
           <img src="assets/images/Blog/2.jpg" alt="images-blog 2" />
@@ -1122,7 +1125,7 @@
         <label for="s1" id="slide1">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/1.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/1.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1130,7 +1133,7 @@
         <label for="s2" id="slide2">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/2.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/2.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1138,7 +1141,7 @@
         <label for="s3" id="slide3">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/3.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/3.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1146,7 +1149,7 @@
         <label for="s4" id="slide4">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/4.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/4.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1154,7 +1157,7 @@
         <label for="s5" id="slide5">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/5.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/5.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1162,7 +1165,7 @@
         <label for="s6" id="slide6">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/6.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/6.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1170,7 +1173,7 @@
         <label for="s7" id="slide7">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/7.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/7.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1178,7 +1181,7 @@
         <label for="s8" id="slide8">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Blog/8.jpg" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Blog/8.jpg" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1186,7 +1189,7 @@
         <label for="s9" id="slide9">
           <div class="card">
             <div class="video">
-              <img class="w-100" src="assets/images/Icon/logo.png" alt="images-blog 1" alt="img-blog" />
+              <img class="w-100" src="assets/images/Icon/logo.png" alt="img-blog" />
             </div>
           </div>
         </label>
@@ -1195,7 +1198,32 @@
 
     </div> -->
 
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Icon/logo.png" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/1.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/2.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/3.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/4.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/5.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/6.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/7.jpg" alt="img-blog" /></div>
+        <div class="swiper-slide"><img class="w-100" src="assets/images/Blog/8.jpg" alt="img-blog" /></div>
+      </div>
+    </div>
+
   </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
 
 
 
